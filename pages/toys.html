@@ -30,14 +30,14 @@
     
 <main class="container">
 <h1 class="toys_head">TOY FOR KIDS</h1>
-<a href="/pages/index.html" class="toys_list">home</a>
-<img src="/static/button3.svg" alt="#" width="8px" height="12px">
+<a href="/pages/index.html" class="toys_list">Home</a>
+<img src="/static/button3.svg" alt="#">
 <a href="/pages/catalog.html" class="toys_list">Catalog</a>
-<img src="/static//button3.svg" alt="#" width="8px" height="12px">
+<img src="/static//button3.svg" alt="#">
 <a href="#" class="toys_list">Toys</a>
 <div class="technical">
 <form action="/pages/toys.html" class="settings">
-        <p>Cost</p>
+        <p class="cost_text">Cost</p>
         <input type="range"
                 min="0"
                 max="500"
@@ -54,7 +54,7 @@
                                     value="color_black"
                                     class="color_checkbox"
                                     id="color_black" checked>
-                            <p class="Color_text">Black</p></label>
+                            <span class="Color_text one">Black</span></label>
                     </li>
                     <li>
                         <label for="color_blue" class="color_label">
@@ -63,7 +63,7 @@
                                     value="color_blue"
                                     class="color_checkbox"
                                     id="color_blue">
-                            <p class="Color_text">Blue</p></label>
+                            <span class="Color_text two">Blue</span></label>
                     </li>
                     <li>
                         <label for="color_green" class="color_label">
@@ -72,7 +72,7 @@
                                 value="color_green"
                                 class="color_checkbox"
                                 id="color_green">
-                            <p class="Color_text">Green</p></label>
+                            <span class="Color_text three">Green</span></label>
                     </li>
                     <li>
                         <label for="color_white" class="color_label">
@@ -81,7 +81,7 @@
                                 value="color_white"
                                 class="color_checkbox"
                                 id="color_white">
-                            <p class="Color_text">White</p></label>
+                            <span class="Color_text four">White</span></label>
                     </li>
                 </ul>
                 <p class="list_name">Delivery</p>
@@ -93,7 +93,7 @@
                                 value="free_shipping"
                                 class="delivery_radio"
                                 id="delivery_check_1">
-                            <p class="delivery_text">Free shipping</p></label>
+                            <span class="delivery_text one_Alt">Free shipping</span></label>
                     </li>
                     <li>
                         <label for="delivery_check_2" class="delivery_label">
@@ -102,30 +102,30 @@
                                 value="fast_shipping"
                                 class="delivery_radio" checked
                                 id="delivery_check_2">
-                            <p class="delivery_text">Fast shipping</p></label>
+                            <span class="delivery_text two_Alt">Fast shipping</span></label>
                     </li>
                 </ul>
 
     <div class="amount">
         <p class="list_name">Amount</p>
             <ul class="amount_list">         
-                <li>
-                    <label for="0-5">
-                            <input name="Amount"
-                                type="radio"
-                                value="Amount 0-5"
-                                class="amount_radio"
-                                id="0-5" checked>
-                            <p class="amount_text amount_text_alt">0-5</p></label>
-                    </li>
-                    <li>
+                        <li>
+                        <label for="0-5">
+                                <input name="Amount"
+                                    type="radio"
+                                    value="Amount 0-5"
+                                    class="amount_radio"
+                                    id="0-5" checked>
+                                <span class="amount_text amount_text_alt">0-5</span></label>
+                        </li>
+                        <li>
                         <label for="10-20">
                                 <input name="Amount"
                                     type="radio"
                                     value="Amount 10-20"
                                     class="amount_radio"
                                     id="10-20">
-                                <p class="amount_text">10-20</p></label>
+                                <span class="amount_text">10-20</span></label>
                         </li>
                         <li>
                         <label for="20-50">
@@ -134,7 +134,7 @@
                                     value="Amount 20-50"
                                     class="amount_radio"
                                     id="20-50">
-                                <p class="amount_text">20-50</p></label>
+                                <span class="amount_text">20-50</span></label>
                     </li>
                 </ul>
             </div>

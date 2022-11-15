@@ -87,6 +87,7 @@
     color: white;
     margin-top: 24px;
     border: #000;
+    margin-bottom: 200px;
 }
 
 .blog_footer {
@@ -98,6 +99,10 @@
 .catalog_price {
     color: black;
     font-family: 'Open Sans', sans-serif
+}
+
+.cost_text {
+    font-family: 'Open Sans', sans-serif;
 }
 
 .color_checkbox,
@@ -129,11 +134,35 @@
     position: relative;
 }
 
+.one {
+    top: 15px;
+}
+
+.two {
+    top: 30px;
+}
+
+.three {
+    top: 45px;
+}
+
+.four {
+    top: 60px;
+}
+
+.one_Alt {
+    top: 15px;
+}
+
+.two_Alt {
+    top: 30px;
+}
+
 .color_label:hover {
     text-decoration: underline;
 }
 
-.color_label::before {
+.Color_text::after {
     content: '';
     position: absolute;
     display: block;
@@ -142,8 +171,8 @@
     border: 2px solid #C29974;
     background: transparent;
     border-radius: 20%;
-    left: 0px;
     left: -40px;
+    bottom: -4px;
 }
 
 .Color_text::before {
@@ -162,7 +191,7 @@
     text-decoration: underline;
 }
 
-.delivery_label::before {
+.delivery_text::after {
     content: '';
     position: absolute;
     display: block;
@@ -170,6 +199,7 @@
     width: 20px;
     border: 2px solid #C29974;
     left: -40px;
+    top: 0px;
     border-radius: 50%;
 }
 
@@ -215,12 +245,14 @@ input [type=range] {
 }
 
 .range_number_0 {
+    font-family: 'Open Sans', sans-serif;
     position: relative;
     top: 70px;
     right: 300px;
 }
 
 .range_number_500 {
+    font-family: 'Open Sans', sans-serif;
     position: relative;
     top: 70px;
     right: 185px;
@@ -232,7 +264,6 @@ input [type=range] {
 
 .Color_text {
     position: relative;
-    top: 2px;
 }
 
 .delivery_radio:checked + .delivery_text::before {
@@ -247,15 +278,24 @@ input [type=range] {
     justify-content: space-between;
 }
 
+
+
+.amount_text_alt,
+.amount_text {
+    top: 15px;
+}
+
 .amount_text {
     background: white;
     padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 19px;
     padding-right: 19px;
+    position: relative;
 }
 
 .amount_text_alt {
+    position: relative;
     padding-top: 7px;
     padding-bottom: 7px;
     padding-left: 28px;

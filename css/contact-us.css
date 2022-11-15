@@ -56,6 +56,7 @@
 .phone_add_email {
     display: flex;
     justify-content: space-between;
+    max-width: 603px;
 }
 
 .phone_add_email_text {
@@ -115,6 +116,7 @@
     color: white;
     margin-bottom: 111px;
     border: #000;
+    margin-top: 60px;
 }
 
 .message_input {
@@ -128,6 +130,21 @@
     display: none;
 }
 
+
+
+.checkbox_label {
+    cursor: pointer;
+    position: relative;
+}
+
+.span {
+    bottom: 40px;
+    position: absolute;
+    margin-left: 30px;
+    width: 560px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 .checkbox_label::before {
     content: '';
     position: absolute;
@@ -137,19 +154,18 @@
     border: 2px solid #C29974;
     background-color: transparent;
     border-radius: 20%;
-    top: 776px;
-    left: 377px;
+    bottom: 40px;
 }
 
-.checkbox_text::after {
+.span::after {
     position: absolute;
     content: url('/static/button6.png');
     display: block;
     height: 19px;
     width: 19px;
-    top: 780px;
-    left: 380px;
     opacity: 0;
+    bottom: 0px;
+    left: -26px;
 }
 
 .contact_flex::after {
@@ -165,7 +181,7 @@
 }
 
 .checkbox_text {
-    padding-top: 22px;
+    margin-top: 22px;
 }
 
 .checkbox_text {
@@ -173,6 +189,6 @@
     margin-left: 32px;
 }
 
-.checkbox_message:checked + .checkbox_text::after {
+.checkbox_message:checked + .span::after {
     opacity: 1;
 }

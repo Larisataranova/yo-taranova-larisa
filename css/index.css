@@ -328,8 +328,16 @@ footer {
 
 .kids {
     max-width: 483px;
-    margin-left: 40px; 
+    margin-left: 10px; 
     position: relative;
+}
+
+.div-kids {
+    background: #E1F0F7;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 27px;
+    padding-top: 25px;
 }
 
 .kids_section {
@@ -339,6 +347,9 @@ footer {
 .kids_head {
     font-family: 'Montserrat', sans-serif;
     font-size: 38px;
+    max-height: 30px;
+    margin-bottom: 0;
+    margin-left: 30px;
 }
 
 .kids_button {
@@ -371,18 +382,6 @@ footer {
     display: flex;
     margin-top: 66px;
     justify-content: space-between;
-}
-
-.kids::before {
-    content: '';
-    display: block;
-    position: absolute;
-    min-width: 543px;
-    min-height: 228px;
-    background: #E1F0F7;
-    z-index: -1;
-    top: 60px;
-    right: -22px;
 }
 
 .kids_background {
@@ -531,6 +530,7 @@ footer {
     color: white;
     margin-bottom: 51px;
     border: none;
+    margin-top: 59px;
 }
 
 .button-form {
@@ -545,6 +545,7 @@ footer {
     border: none;
     display: none;
     cursor: pointer;
+    margin-top: 59px;
 }
 
 .input-check ~ .button-form { 
@@ -584,6 +585,8 @@ footer {
     cursor: pointer;
     margin-left: 32px;
     opacity: 1;
+    position: absolute;
+    bottom: 98px;
 }
 
 .input-check {
@@ -604,4 +607,5 @@ footer {
     background: transparent;
     border-radius: 20%;
     opacity: 1;
+    bottom: 98px;
 }
