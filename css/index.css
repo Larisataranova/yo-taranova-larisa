@@ -338,6 +338,7 @@ footer {
     padding-right: 30px;
     padding-bottom: 27px;
     padding-top: 25px;
+    min-width: 483px;
 }
 
 .kids_section {
@@ -371,11 +372,13 @@ footer {
 .kids_text {
     font-family: 'Open Sans', sans-serif;
     margin-bottom: 29px;
+    max-width: 483px;
 }
 
 .kids_italic {
     font-family: 'Crimson Text', serif;
     font-size: 26px;
+    margin: 0;
 }
 
 .main_bottom {
