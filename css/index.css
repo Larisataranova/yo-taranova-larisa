@@ -1,5 +1,5 @@
 footer {
-    margin-top: 50px;
+    margin-top: 45px;
 }
 
 
@@ -255,8 +255,9 @@ footer {
     font-family: 'Crimson Text', serif;
     font-size: 26px;
     position: relative;
-    margin-top: 20px;
+    margin-top: 25px;
     line-height: 21px;
+    margin-bottom: 30px;
 }
 
 .women_img {
@@ -266,6 +267,7 @@ footer {
 .women_text {
     font-family: 'Open Sans', sans-serif;
     line-height: 22px;
+    margin-top: 31px;
 }
 
 .women_container {
@@ -286,7 +288,7 @@ footer {
 .women_button {
     font-family: 'Open Sans', sans-serif;
     padding: 9px;
-    padding-left: 26px;
+    padding-left: 27px;
     padding-right: 22px;
     min-width: 120px;
     background: black;
@@ -304,7 +306,7 @@ footer {
 }
 
 .women_text_alt {
-    margin-bottom: 48px;
+    margin-bottom: 36px;
     font-family: 'Open Sans', sans-serif;
     line-height: 22px;
 }
@@ -328,7 +330,6 @@ footer {
 
 .kids {
     max-width: 483px;
-    margin-left: 10px; 
     position: relative;
 }
 
@@ -336,13 +337,9 @@ footer {
     background: #E1F0F7;
     padding-left: 30px;
     padding-right: 30px;
-    padding-bottom: 27px;
+    padding-bottom: 37px;
     padding-top: 25px;
     min-width: 483px;
-}
-
-.kids_section {
-    padding-inline-start: 0px;
 }
 
 .kids_head {
@@ -355,8 +352,8 @@ footer {
 
 .kids_button {
     font-family: 'Open Sans', sans-serif;
-    padding-left: 22px; 
-    padding-right: 22px;
+    padding-left: 21px; 
+    padding-right: 30px;
     padding-top: 9px;
     padding-bottom: 9px;
     background: black;
@@ -371,7 +368,7 @@ footer {
 
 .kids_text {
     font-family: 'Open Sans', sans-serif;
-    margin-bottom: 29px;
+    margin-bottom: 37px;
     max-width: 483px;
 }
 
@@ -411,11 +408,13 @@ footer {
 .contacts_text {
     font-family: 'Open Sans', sans-serif;
     width: 483px;
+    margin-top: 44px;
 }
 
 .contacts_head {
     font-family: 'Montserrat', sans-serif;
     font-size: 38px;
+    margin-bottom: 20px;
 }
 
 .modern {
